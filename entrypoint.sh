@@ -6,7 +6,7 @@ cat << EOF > /etc/config.json
   "inbounds":[
     {
       "port": 8888,
-      "protocol": "vless",
+      "protocol": "vmess",
       "settings": {
         "decryption": "none",
         "clients": [
